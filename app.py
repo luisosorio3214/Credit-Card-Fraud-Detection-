@@ -3,10 +3,11 @@ import shap
 import pickle
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # load our models 
-
-boost = pickle.load(open("Models/boost.sav","rb"))
+boost_path = Path(__file__).parents[0] / "Models/boost.sav"
+boost = pickle.load(open(boost_path,"rb"))
 
 # functions
 
