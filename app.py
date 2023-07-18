@@ -58,7 +58,7 @@ with gr.Blocks() as demo:
     """)
     with gr.Row():
         with gr.Column():
-            repeated_retailer = gr.Radio(["No","Yes"], type = "index", label = "Repeat Retailer", info ="Was the transaction at at a repeated store?")
+            repeated_retailer = gr.Radio(["No","Yes"], type = "index", label = "Repeat Retailer", info ="Was the transaction at a repeated store?")
             
             online_order = gr.Radio(["No","Yes"], type = "index", label = "Online Order", info ="Was the transaction an online order?")
             
