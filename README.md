@@ -12,7 +12,7 @@
   <a href="https://colab.research.google.com/drive/1iHh47NJrApNsz-JYwDEqLvMNqf2F2y3z?usp=sharing"><img 
   src="https://colab.research.google.com/assets/colab-badge.svg"></a>
   <a href="https://huggingface.co/spaces/luisosorio3214/Credit-Card-Fraud-Detection"><img 
-  src="https://huggingface.co/datasets/huggingface/badges/raw/main/powered-by-huggingface-light.svg"></a>
+  src="https://huggingface.co/datasets/huggingface/badges/raw/refs%2Fpr%2F11/deploy-on-spaces-md-dark.svg"></a>
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 
   <p>
