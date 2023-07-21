@@ -99,7 +99,7 @@
       </p>
     </p>  
     <p>
-      Confusion Matrix of XGBoost Classifier.
+      Confusion Matrix of XGBoost Classifier (Testing Set).
       <p>
         <img src="Static/boost_matrix.png">
       </p>
