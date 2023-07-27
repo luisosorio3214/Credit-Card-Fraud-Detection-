@@ -131,7 +131,7 @@
         </tr>
         <tr>
           <td>Random Forest</td>
-          <td>0.315789/td>
+          <td>0.315789</td>
           <td>99.9%</td>
           <td>99.9%</td>
           <td>99.9%</td>
