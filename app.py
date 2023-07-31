@@ -1,13 +1,29 @@
+# import necessary libraries
 import gradio as gr
 import shap
 import pickle
 import pandas as pd
 import matplotlib.pyplot as plt
-from pathlib import Path
+from dotenv import load_dotenv
+import tempfile
+import os 
+import boto3 
+# from pathlib import Path
+
 
 # load our models 
-boost_path = Path(__file__).parents[0] / "Models/boost.sav"
-boost = pickle.load(open(boost_path,"rb"))
+load_dotenv()
+client = boto3.client('s3', aws_access_key_id = os.getenv('aws_access_key'),aws_secret_access_key=os.getenv('aws_secret_key'))
+bucket_name = "credit-card-fraud-app"
+key = "boost.sav"
+
+with tempfile.TemporaryFile() as fp:
+    client.download_fileobj(Fileobj=fp, Bucket=bucket_name, Key=key)
+    fp.seek(0)
+    boost = pickle.load(fp)
+
+# boost_path = Path(__file__).parents[0] / "Models/boost.sav"
+# boost = pickle.load(open(boost_path,"rb"))
 
 # functions
 
@@ -55,6 +71,7 @@ def interpret(*data):
 with gr.Blocks() as demo:
     gr.HTML("""
     <h1 align="center">Credit Card Fraud Prediction System</h1>
+    <p>This is a Web App that predicts Whether a Credit Card Transaction is Fraudulent or not. Just input the following parameters and click the predict button. If you want to see the influence that each parameter had on the outcome click the explain button</P>
     """)
     with gr.Row():
         with gr.Column():
