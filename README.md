@@ -83,6 +83,7 @@
     <h2>Tech Stack</h2>
     <ul>
       <li>Python (Machine Learning Modeling and App preparation)</li>
+      <li>AWS S3 (Model Storage)</li>
       <li>Gradio (Interface for app)</li>
       <li>Hugging Face (App Deployment)</li>
     </ul>
