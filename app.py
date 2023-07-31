@@ -71,7 +71,7 @@ def interpret(*data):
 with gr.Blocks() as demo:
     gr.HTML("""
     <h1 align="center">Credit Card Fraud Prediction System</h1>
-    <p>This is a Web App that predicts Whether a Credit Card Transaction is Fraudulent or not. Just input the following parameters and click the predict button. If you want to see the influence that each parameter had on the outcome click the explain button</P>
+    <p>This is a Web App that predicts Whether a Credit Card Transaction is Fraudulent or not. Just input the following parameters and click the predict button. If you want to see the influence that each parameter had on the outcome click the explain button.</P>
     """)
     with gr.Row():
         with gr.Column():
