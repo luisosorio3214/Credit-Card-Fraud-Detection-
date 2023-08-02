@@ -51,7 +51,7 @@
   <section id="business-problem">
     <h2>Business Problem</h2>
     <p>
-      Credit card frauds have always been a major concern for banking and financial institutions which result in unnecessary fees taken. Fraudster have several methods in achieving these unauthorized transactions and we wish to identify key components that help identify a fraudulent transaction. The idea is if we can correctly identify a fraudulent transaction we can stop the transaction from going through and save the money from being taken. In order to achieve this goal we need a policy that helps determine fraudulent transaction at the expense of not misclassifying a transaction as fraudulent which can also increase costs. We need an efficient system that balances in identification of normal and fraudulent transactions. 
+      Credit card frauds have always been a major concern for banking and financial institutions which result in unnecessary fees taken. Fraudster have several methods in achieving these unauthorized transactions and we wish to identify key components that help identify a fraudulent transaction. The idea is if we can correctly identify a fraudulent transaction we can stop the transaction from going through and save the money from being taken. In order to achieve this goal we need a policy that helps determine fraudulent transaction at the expense of not misclassifying a transaction as fraudulent which can also increase costs. We need an efficient system that balances the identification of normal and fraudulent transactions. 
     </p>
   </section>
 </P>
