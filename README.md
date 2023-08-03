@@ -1,6 +1,6 @@
 <h1 align="center">Credit Card Fraud Detection</h1>
 <p align="center">
-  <img src="Static\credit-card-fraud-detection.png" width="800" height="250" allow="autoplay">
+  <img src="Static\credit-card-fraud-detection.png" width="800" height="340" allow="autoplay">
 </p>
 
 <p>
