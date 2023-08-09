@@ -235,9 +235,9 @@
           python run app.py
           </code>
         </pre>
-      <p>A local link would be generated on your machine. Clcik the link and it would lead you to the app.</p>
+      <p>A local link would be generated on your machine. Click the link and it would lead you to the app.</p>
     <p>
-    If you are having issues with Gradio, please follow the documentation<a href="https://www.gradio.app/guides/quickstart">here</a>. 
+    If you are having issues with Gradio, please follow the documentation <a href="https://www.gradio.app/guides/quickstart">here</a>. 
     </p>
   </section>
 </p>
